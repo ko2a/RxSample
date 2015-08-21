@@ -1,0 +1,10 @@
+﻿<Window x:Class="RxSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Button x:Name="SubscribeA" Content="Subscribe A" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="SubscribeB" Content="Subscribe B" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="ObserverbleLog" HorizontalAlignment="Left" Height="550" Margin="90,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="692" FontSize="16" FontFamily="MS Gothic" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Visible" IsReadOnly="True"/>
+    </Grid>
+</Window>

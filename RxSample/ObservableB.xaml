@@ -1,0 +1,8 @@
+﻿<Window x:Class="RxSample.ObservableB"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ObservableB" Height="76" Width="180" WindowStyle="ToolWindow">
+    <Grid>
+
+    </Grid>
+</Window>
